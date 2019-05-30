@@ -1,0 +1,16 @@
+.footer {
+  padding: 0 0 5px;
+  background-color: #F5F5F5;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer__development-icon {
+  opacity: 0.3;
+
+  &:hover {
+    opacity: 1;
+  }
+}

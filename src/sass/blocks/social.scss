@@ -1,0 +1,25 @@
+.social {
+  padding: 28px 45px 8px;
+  background-color: #F5F5F5;
+}
+
+.social .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  margin: 0 10px 15px;
+
+  &:hover .social__icon {
+    fill: #1C3B4E;
+  }
+}
+
+.social__icon {
+  fill: #BDBFC5;
+}
